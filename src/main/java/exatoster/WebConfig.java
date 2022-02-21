@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan("exatoster.controllers")
+@ComponentScan("exatoster.controllers,exatoster.service")
 public class WebConfig implements WebMvcConfigurer {
 
 
